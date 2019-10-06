@@ -1,0 +1,7 @@
+[Sound Theme]
+Name=Materia
+Comment=A freedesktop sound theme using Google's Material sound resources
+Directories=stereo
+
+[stereo]
+OutputProfile=stereo
