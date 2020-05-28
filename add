@@ -4,7 +4,7 @@
 # ./add NAME FILE_PATH
 #
 # Example:
-# ./add dialog-error '/home/user/materia-sound-theme/Materia/material_product_sounds/04 Secondary System Sounds/alert_error-01.wav'
+# ./add dialog-error '/home/user/materia-sound-theme/Materia/material_product_sounds/04 Secondary System Sounds/alert_error-01.ogg'
 #
 # Tips:
 # - NAME must follow http://0pointer.de/public/sound-naming-spec.html
@@ -18,4 +18,4 @@ if [[ "$1" =~ "."|"/" ]]; then
   exit 1
 fi
 
-ln -srf "$2" "$CURRENT_DIR/Materia/stereo/$1.wav"
+ln -srf "$2" "$CURRENT_DIR/Materia/stereo/$1.ogg"
