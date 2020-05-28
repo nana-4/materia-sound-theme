@@ -8,5 +8,5 @@ project(
 
 install_subdir(
   'Materia',
-  install_dir: get_option('datadir') / 'sounds'
+  install_dir: join_paths(get_option('datadir'), 'sounds')
 )
