@@ -5,14 +5,19 @@ It follows the [Material sound guidelines](https://material.io/design/sound).
 
 ## Installation
 
-You can build and install it using Meson.
+You can build and install it using Meson and Ninja:
 
 ```bash
-meson "build" --prefix=/usr
+meson "build"
 sudo ninja -C "build" install
 ```
 
-The default prefix is `/usr`, but you can specify a different prefix such as `$HOME/.local`.
+For local installation:
+
+```bash
+meson "build" --prefix=$HOME/.local
+ninja -C "build" install
+```
 
 ## Enable more sounds
 
