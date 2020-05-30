@@ -65,13 +65,13 @@ install_data(
 
 install_data(
   'state-change_confirm-down.ogg',
-  rename: 'device-added.oga',
+  rename: 'device-removed.oga',
   install_dir: stereo_dir,
 )
 
 install_data(
   'state-change_confirm-up.ogg',
-  rename: 'device-removed.oga',
+  rename: 'device-added.oga',
   install_dir: stereo_dir,
 )
 
